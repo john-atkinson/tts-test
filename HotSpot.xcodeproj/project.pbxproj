@@ -7,24 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		47606F2129BCB3C300D3F1BD /* HotSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47606F2029BCB3C300D3F1BD /* HotSpot.swift */; };
+		47606F2129BCB3C300D3F1BD /* HotSpotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47606F2029BCB3C300D3F1BD /* HotSpotApp.swift */; };
 		47606F2329BCB3C300D3F1BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47606F2229BCB3C300D3F1BD /* ContentView.swift */; };
 		47606F2529BCB3C400D3F1BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47606F2429BCB3C400D3F1BD /* Assets.xcassets */; };
 		47606F2829BCB3C400D3F1BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47606F2729BCB3C400D3F1BD /* Preview Assets.xcassets */; };
 		47606F2F29BCC1A900D3F1BD /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47606F2E29BCC1A900D3F1BD /* CircleImage.swift */; };
 		47606F3129BCC25B00D3F1BD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47606F3029BCC25B00D3F1BD /* MapView.swift */; };
 		47606F3329C67D8600D3F1BD /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 47606F3229C67D8600D3F1BD /* landmarkData.json */; };
+		47606F3829C6B0B400D3F1BD /* HotSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47606F3729C6B0B400D3F1BD /* HotSpot.swift */; };
+		47606F3A29C6B5C300D3F1BD /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47606F3929C6B5C300D3F1BD /* ModelData.swift */; };
+		47606F3C29C74CBB00D3F1BD /* HotSpotRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47606F3B29C74CBB00D3F1BD /* HotSpotRow.swift */; };
+		47606F3E29C752F200D3F1BD /* HotSpotList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47606F3D29C752F200D3F1BD /* HotSpotList.swift */; };
+		47606F4029C756D600D3F1BD /* HotSpotDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47606F3F29C756D600D3F1BD /* HotSpotDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		47606F1D29BCB3C300D3F1BD /* tts-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tts-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		47606F2029BCB3C300D3F1BD /* HotSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotSpot.swift; sourceTree = "<group>"; };
+		47606F1D29BCB3C300D3F1BD /* HotSpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotSpot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47606F2029BCB3C300D3F1BD /* HotSpotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotSpotApp.swift; sourceTree = "<group>"; };
 		47606F2229BCB3C300D3F1BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		47606F2429BCB3C400D3F1BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47606F2729BCB3C400D3F1BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		47606F2E29BCC1A900D3F1BD /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		47606F3029BCC25B00D3F1BD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		47606F3229C67D8600D3F1BD /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		47606F3729C6B0B400D3F1BD /* HotSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HotSpot.swift; path = HotSpot/HotSpot.swift; sourceTree = SOURCE_ROOT; };
+		47606F3929C6B5C300D3F1BD /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		47606F3B29C74CBB00D3F1BD /* HotSpotRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotSpotRow.swift; sourceTree = SOURCE_ROOT; };
+		47606F3D29C752F200D3F1BD /* HotSpotList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotSpotList.swift; sourceTree = "<group>"; };
+		47606F3F29C756D600D3F1BD /* HotSpotDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotSpotDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +59,7 @@
 		47606F1E29BCB3C300D3F1BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				47606F1D29BCB3C300D3F1BD /* tts-test.app */,
+				47606F1D29BCB3C300D3F1BD /* HotSpot.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,10 +67,9 @@
 		47606F1F29BCB3C300D3F1BD /* HotSpot */ = {
 			isa = PBXGroup;
 			children = (
-				47606F2029BCB3C300D3F1BD /* HotSpot.swift */,
-				47606F2229BCB3C300D3F1BD /* ContentView.swift */,
-				47606F2E29BCC1A900D3F1BD /* CircleImage.swift */,
-				47606F3029BCC25B00D3F1BD /* MapView.swift */,
+				47606F2029BCB3C300D3F1BD /* HotSpotApp.swift */,
+				47606F3529C6AC5800D3F1BD /* View */,
+				47606F3629C6AC7800D3F1BD /* Model */,
 				47606F3429C67E4300D3F1BD /* Resources */,
 				47606F2429BCB3C400D3F1BD /* Assets.xcassets */,
 				47606F2629BCB3C400D3F1BD /* Preview Content */,
@@ -84,12 +93,34 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		47606F3529C6AC5800D3F1BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				47606F3B29C74CBB00D3F1BD /* HotSpotRow.swift */,
+				47606F3D29C752F200D3F1BD /* HotSpotList.swift */,
+				47606F3F29C756D600D3F1BD /* HotSpotDetail.swift */,
+				47606F2229BCB3C300D3F1BD /* ContentView.swift */,
+				47606F2E29BCC1A900D3F1BD /* CircleImage.swift */,
+				47606F3029BCC25B00D3F1BD /* MapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		47606F3629C6AC7800D3F1BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47606F3729C6B0B400D3F1BD /* HotSpot.swift */,
+				47606F3929C6B5C300D3F1BD /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		47606F1C29BCB3C300D3F1BD /* tts-test */ = {
+		47606F1C29BCB3C300D3F1BD /* HotSpot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47606F2B29BCB3C400D3F1BD /* Build configuration list for PBXNativeTarget "tts-test" */;
+			buildConfigurationList = 47606F2B29BCB3C400D3F1BD /* Build configuration list for PBXNativeTarget "HotSpot" */;
 			buildPhases = (
 				47606F1929BCB3C300D3F1BD /* Sources */,
 				47606F1A29BCB3C300D3F1BD /* Frameworks */,
@@ -99,9 +130,9 @@
 			);
 			dependencies = (
 			);
-			name = "tts-test";
+			name = HotSpot;
 			productName = "tts-test";
-			productReference = 47606F1D29BCB3C300D3F1BD /* tts-test.app */;
+			productReference = 47606F1D29BCB3C300D3F1BD /* HotSpot.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +163,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				47606F1C29BCB3C300D3F1BD /* tts-test */,
+				47606F1C29BCB3C300D3F1BD /* HotSpot */,
 			);
 		};
 /* End PBXProject section */
@@ -156,9 +187,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				47606F2329BCB3C300D3F1BD /* ContentView.swift in Sources */,
+				47606F4029C756D600D3F1BD /* HotSpotDetail.swift in Sources */,
+				47606F3E29C752F200D3F1BD /* HotSpotList.swift in Sources */,
 				47606F3129BCC25B00D3F1BD /* MapView.swift in Sources */,
-				47606F2129BCB3C300D3F1BD /* HotSpot.swift in Sources */,
+				47606F2129BCB3C300D3F1BD /* HotSpotApp.swift in Sources */,
 				47606F2F29BCC1A900D3F1BD /* CircleImage.swift in Sources */,
+				47606F3829C6B0B400D3F1BD /* HotSpot.swift in Sources */,
+				47606F3C29C74CBB00D3F1BD /* HotSpotRow.swift in Sources */,
+				47606F3A29C6B5C300D3F1BD /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +322,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"tts-test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"HotSpot/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -299,7 +335,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.primeworks.tts-tes";
+				PRODUCT_BUNDLE_IDENTIFIER = com.primeworks.hotspot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -314,7 +350,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"tts-test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"HotSpot/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -327,7 +363,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.primeworks.tts-tes";
+				PRODUCT_BUNDLE_IDENTIFIER = com.primeworks.hotspot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -347,7 +383,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47606F2B29BCB3C400D3F1BD /* Build configuration list for PBXNativeTarget "tts-test" */ = {
+		47606F2B29BCB3C400D3F1BD /* Build configuration list for PBXNativeTarget "HotSpot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47606F2C29BCB3C400D3F1BD /* Debug */,
