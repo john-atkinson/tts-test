@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		47606F2129BCB3C300D3F1BD /* tts_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47606F2029BCB3C300D3F1BD /* tts_testApp.swift */; };
+		47606F2129BCB3C300D3F1BD /* HotSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47606F2029BCB3C300D3F1BD /* HotSpot.swift */; };
 		47606F2329BCB3C300D3F1BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47606F2229BCB3C300D3F1BD /* ContentView.swift */; };
 		47606F2529BCB3C400D3F1BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47606F2429BCB3C400D3F1BD /* Assets.xcassets */; };
 		47606F2829BCB3C400D3F1BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47606F2729BCB3C400D3F1BD /* Preview Assets.xcassets */; };
+		47606F2F29BCC1A900D3F1BD /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47606F2E29BCC1A900D3F1BD /* CircleImage.swift */; };
+		47606F3129BCC25B00D3F1BD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47606F3029BCC25B00D3F1BD /* MapView.swift */; };
+		47606F3329C67D8600D3F1BD /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 47606F3229C67D8600D3F1BD /* landmarkData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		47606F1D29BCB3C300D3F1BD /* tts-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tts-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		47606F2029BCB3C300D3F1BD /* tts_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tts_testApp.swift; sourceTree = "<group>"; };
+		47606F2029BCB3C300D3F1BD /* HotSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotSpot.swift; sourceTree = "<group>"; };
 		47606F2229BCB3C300D3F1BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		47606F2429BCB3C400D3F1BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47606F2729BCB3C400D3F1BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		47606F2E29BCC1A900D3F1BD /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		47606F3029BCC25B00D3F1BD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		47606F3229C67D8600D3F1BD /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +41,7 @@
 		47606F1429BCB3C300D3F1BD = {
 			isa = PBXGroup;
 			children = (
-				47606F1F29BCB3C300D3F1BD /* tts-test */,
+				47606F1F29BCB3C300D3F1BD /* HotSpot */,
 				47606F1E29BCB3C300D3F1BD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,15 +54,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		47606F1F29BCB3C300D3F1BD /* tts-test */ = {
+		47606F1F29BCB3C300D3F1BD /* HotSpot */ = {
 			isa = PBXGroup;
 			children = (
-				47606F2029BCB3C300D3F1BD /* tts_testApp.swift */,
+				47606F2029BCB3C300D3F1BD /* HotSpot.swift */,
 				47606F2229BCB3C300D3F1BD /* ContentView.swift */,
+				47606F2E29BCC1A900D3F1BD /* CircleImage.swift */,
+				47606F3029BCC25B00D3F1BD /* MapView.swift */,
+				47606F3429C67E4300D3F1BD /* Resources */,
 				47606F2429BCB3C400D3F1BD /* Assets.xcassets */,
 				47606F2629BCB3C400D3F1BD /* Preview Content */,
 			);
-			path = "tts-test";
+			path = HotSpot;
 			sourceTree = "<group>";
 		};
 		47606F2629BCB3C400D3F1BD /* Preview Content */ = {
@@ -65,6 +74,14 @@
 				47606F2729BCB3C400D3F1BD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		47606F3429C67E4300D3F1BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				47606F3229C67D8600D3F1BD /* landmarkData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 47606F1829BCB3C300D3F1BD /* Build configuration list for PBXProject "tts-test" */;
+			buildConfigurationList = 47606F1829BCB3C300D3F1BD /* Build configuration list for PBXProject "HotSpot" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,6 +144,7 @@
 			files = (
 				47606F2829BCB3C400D3F1BD /* Preview Assets.xcassets in Resources */,
 				47606F2529BCB3C400D3F1BD /* Assets.xcassets in Resources */,
+				47606F3329C67D8600D3F1BD /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				47606F2329BCB3C300D3F1BD /* ContentView.swift in Sources */,
-				47606F2129BCB3C300D3F1BD /* tts_testApp.swift in Sources */,
+				47606F3129BCC25B00D3F1BD /* MapView.swift in Sources */,
+				47606F2129BCB3C300D3F1BD /* HotSpot.swift in Sources */,
+				47606F2F29BCC1A900D3F1BD /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +299,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.primeworks.tts-test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.primeworks.tts-tes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -307,7 +327,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.primeworks.tts-test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.primeworks.tts-tes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -318,7 +338,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		47606F1829BCB3C300D3F1BD /* Build configuration list for PBXProject "tts-test" */ = {
+		47606F1829BCB3C300D3F1BD /* Build configuration list for PBXProject "HotSpot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47606F2929BCB3C400D3F1BD /* Debug */,
